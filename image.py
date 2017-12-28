@@ -36,6 +36,6 @@ def image():
                   fill=(255, 255, 255), font=font_type)
 
         image.show()
-        image.save("picture", "PNG")
+        image.save("picture.png", "PNG")
 
 image()
